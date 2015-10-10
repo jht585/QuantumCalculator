@@ -40,12 +40,12 @@ body {background-color: #F0F5F5;}
   padding: 1em;
 }
 
-table, td {
+#navTable, td {
   border-collapse: collapse;
   border: 1px solid #CCCCCC;
 }
 
-table {
+#navTable {
   width: 1200px;
   height: 40px;
   background-color: white;
