@@ -28,6 +28,7 @@ body {background-color: #F0F5F5;}
   padding: 50px;
   font-size: xx-large;
   font-family: Georgia, serif;
+  text-shadow: 1px 1px 1px black;
 }
 
 #logo2 {
