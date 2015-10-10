@@ -100,7 +100,6 @@ a:link {
     color: black;
     text-decoration: none;
     transition-duration: 0.2s;
-    user-select:none;
     border-radius: 2px;
 }
 a:visited {
