@@ -56,6 +56,7 @@ table {
 
 #content {
   width: 950px;
+  height: 575px;
   margin: auto;
   border: 1px solid #CCCCCC;
   background-color: white;
@@ -82,6 +83,9 @@ table {
 }
 
 #footer {
+  position: absolute;
+  top: 850px;
+  left: 167px;
   width: 982px;
   margin: auto;
   border: 1px solid #CCCCCC;
@@ -112,6 +116,7 @@ a:active {
     text-decoration: none;
     background-color: #194775;
 }
+
 
 #button1 {padding: 10px 72px 10px 72px;}
 #button2 {padding: 10px 58px 10px 58px;}
