@@ -66,6 +66,7 @@ table {
   line-height: 2em;
   text-indent: 20px;
   box-shadow: 0px 3px 7px #E6E6E6;
+  font-family: Verdana, sans-serif;
 }
 
 .quote {
@@ -81,6 +82,8 @@ table {
 #c1, #c2, #c3, #c4 {
   width: 950px;
   border-bottom: 1px solid #CCCCCC;
+  font-family: Verdana, sans-serif;
+  
 }
 
 #footer {
