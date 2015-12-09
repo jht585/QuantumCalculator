@@ -20,6 +20,7 @@ body {background-color: #F0F5F5;}
   float: left;
   margin-left: 120px;
   width: 100px;
+  margin-bottom: 20px;
 }
 
 #title {
@@ -114,8 +115,8 @@ table {
     background-color: #194775;
 }
 
-#button1 {padding: 10px 81px 10px 81px;}
+#button1 {padding: 10px 82px 10px 82px;}
 #button2 {padding: 10px 45px 10px 45px;}
-#button3 {padding: 10px 49px 10px 49px;}
-#button4 {padding: 10px 51px 10px 51px;}
-#button5 {padding: 10px 23px 10px 22px;}
+#button3 {padding: 10px 50px 10px 49px;}
+#button4 {padding: 10px 48px 10px 49px;}
+#button5 {padding: 10px 20px 10px 20px;}
