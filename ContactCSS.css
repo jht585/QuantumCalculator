@@ -55,7 +55,6 @@ table {
 
 #content {
   width: 1000px;
-  height: 575px;
   margin: auto;
   border: 1px solid #CCCCCC;
   background-color: white;
@@ -82,7 +81,7 @@ table {
   font-family: Verdana, sans-serif;  
 }
 
-#c1 {border-bottom: 1px solid #CCCCCC;}
+#c1, #c3 {border-bottom: 1px solid #CCCCCC;}
 
 #footer {
   width: 1032px;
