@@ -16,11 +16,11 @@
 
   <div id="top">
 
-    <a id="logo1" href = "./Home.html">
+    <a id="logo1" href = "./Home.php">
     <img src = "./logo.jpg" alt = "Logo" width="100" height="100" />
     </a>
 
-    <a id="logo2" href = "./Home.html">
+    <a id="logo2" href = "./Home.php">
     <img src = "./logo.jpg" alt = "Logo" width="100" height="100" />
     </a>
 
@@ -29,11 +29,25 @@
     <div id="navBar">
     <table>
     <tr>
-      <td class="tab" ><a class="btton" id="button1" href = "./Home.html"> HOME</a></td>
-      <td class="tab" ><a class="btton" id="button2" href = "./Background.html"> BACKGROUND</a></td>
+      <td class="tab" ><a class="btton" id="button1" href = "./Home.php"> HOME</a></td>
+      <td class="tab" ><a class="btton" id="button2" href = "./Background.php"> BACKGROUND</a></td>
       <td class="tab" ><a class="btton" id="button3" href = "./Empty.html"> CALCULATOR</a></td>
-      <td class="tab" ><a class="btton" id="button4" href = "./ContactUs.html"> CONTACT US</a></td>
-      <td class="tab" ><a class="btton" id="button5" href = "./Login.html"> LOGIN / REGISTER</a></td>
+      <td class="tab" ><a class="btton" id="button4" href = "./ContactUs.php"> CONTACT US</a></td>
+
+<?php
+  session_start();
+  if (!isset($_SESSION["user"])) {
+    print <<<LINE
+    <td class="tab" ><a class="btton" id="button5" href = "./Signup.php"> LOGIN / REGISTER</a></td>
+LINE;
+  }
+  else {
+     print <<<LINE
+     <td class="tab" ><a class="btton" id="button6" href = "./Logout.php"> LOGOUT</a></td>
+LINE;
+  }
+?>
+
     </tr>
     </tbody>
     </table>
