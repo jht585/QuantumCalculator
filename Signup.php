@@ -47,7 +47,7 @@ function callServer(str) {
     <tr>
       <td class="tab" ><a class="btton" id="button1" href = "./Home.php"> HOME</a></td>
       <td class="tab" ><a class="btton" id="button2" href = "./Background.php"> BACKGROUND</a></td>
-      <td class="tab" ><a class="btton" id="button3" href = "./Empty.html"> CALCULATOR</a></td>
+      <td class="tab" ><a class="btton" id="button3" href = "./calc.php"> CALCULATOR</a></td>
       <td class="tab" ><a class="btton" id="button4" href = "./ContactUs.php"> CONTACT US</a></td>
 <?php
   session_start();
